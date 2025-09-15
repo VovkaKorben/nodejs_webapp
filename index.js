@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
 });
 
 PORT_NUMBER = 8080;
-server.listen(PORT_NUMBER, '127.0.0.1', () => {
-    console.log(`Server running at http://127.0.0.1:${PORT_NUMBER}/`);
+IP_ADDR = '0.0.0.0'
+server.listen(PORT_NUMBER, IP_ADDR, () => {
+    console.log(`Server running at http://${IP_ADDR}:${PORT_NUMBER}/`);
 });

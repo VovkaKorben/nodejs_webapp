@@ -1,7 +1,7 @@
 {
   "name": "nodejs_webapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "nodejs_webapp test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests yet\" && exit 0",
@@ -17,7 +17,4 @@
     "url": "https://github.com/VovkaKorben/nodejs_webapp/issues"
   },
   "homepage": "https://github.com/VovkaKorben/nodejs_webapp#readme",
-  "devDependencies": {
-    "jest": "^30.1.3"
-  }
 }

@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     res.end('Moikka Maailma!!!!\n');
 });
 
-
-server.listen(3000, '127.0.0.1', () => {
-    console.log('Server running at http://127.0.0.1:3000/');
+PORT_NUMBER = 8080;
+server.listen(PORT_NUMBER, '127.0.0.1', () => {
+    console.log(`Server running at http://127.0.0.1:${PORT_NUMBER}/`);
 });
